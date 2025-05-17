@@ -23,7 +23,27 @@ class Fixed {
 		Fixed(const int value);
 		Fixed(const Fixed &copy); 
 		Fixed& operator=(const Fixed &other);
-		
+
+		bool operator>(const Fixed &other) const;
+		bool operator<(const Fixed &other) const;
+		bool operator>=(const Fixed &other) const;
+		bool operator<=(const Fixed &other) const;
+		bool operator==(const Fixed &other) const;
+		bool operator!=(const Fixed &other) const;
+
+		Fixed operator+(const Fixed &obj);
+		Fixed operator-(const Fixed &obj);
+		Fixed operator*(const Fixed &obj);
+		Fixed operator/(const Fixed &obj);
+
+		Fixed& operator++();
+		Fixed& operator--();
+
+		static Fixed& max(Fixed &obj, Fixed &otherO);
+		static const Fixed& min(const Fixed &obj, const Fixed &otherO);
+		static const Fixed& max(const Fixed &obj, const Fixed &otherO);
+		static Fixed& min(Fixed &obj, Fixed &otherO);
+
 		Fixed(const float fvalue);
 		~Fixed();
 
