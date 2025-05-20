@@ -6,7 +6,7 @@
 /*   By: hfilipe- <hfilipe-@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/17 11:31:39 by hfilipe-          #+#    #+#             */
-/*   Updated: 2025/05/17 14:07:08 by hfilipe-         ###   ########.fr       */
+/*   Updated: 2025/05/19 14:30:21 by hfilipe-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 #include "../includes/Fixed.hpp"
 
 class Point {
+	
 	public:
 		Point();
 		Point(const Fixed x, const Fixed y );
@@ -24,12 +25,11 @@ class Point {
 		Point& operator=(const Point &other);
 		~Point();
 
-		Fixed getPoint(char c) const;
+		Fixed	getPoint(char c) const;
 
 	private:
-		Fixed x;
-		Fixed y;
-
+		Fixed	x;
+		Fixed	y;
 };
 
 #endif

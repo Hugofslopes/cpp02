@@ -6,7 +6,7 @@
 /*   By: hfilipe- <hfilipe-@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/16 11:46:54 by hfilipe-          #+#    #+#             */
-/*   Updated: 2025/05/19 14:28:20 by hfilipe-         ###   ########.fr       */
+/*   Updated: 2025/05/19 18:47:19 by hfilipe-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ int main( void ) {
 		std::cout << "result1 (max)- " << result1 << std::endl;
 
 		Fixed result3 = Fixed::max(a, b);
-		const Fixed &result4 = Fixed::min(a, b);
+		Fixed &result4 = Fixed::min(a, b);
 		
 		std::cout << std::endl << "Const max and min:" << std::endl;
 		std::cout << "result3 (max)- " << result3 << std::endl;
