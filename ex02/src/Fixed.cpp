@@ -6,7 +6,7 @@
 /*   By: hfilipe- <hfilipe-@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/16 11:39:26 by hfilipe-          #+#    #+#             */
-/*   Updated: 2025/05/19 15:10:40 by hfilipe-         ###   ########.fr       */
+/*   Updated: 2025/05/20 19:26:17 by hfilipe-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ Fixed& Fixed::operator=(const Fixed &other) {
 
 Fixed::Fixed(const int value) : fixedNb(value << Fixed::bits) {}
 
-Fixed::Fixed(const float value) : fixedNb(static_cast<int>(round(value * (1 << bits)))) {}
+Fixed::Fixed(const float value) : fixedNb(static_cast<int>(roundf(value * (1 << bits)))) {}
 
 Fixed::~Fixed(){
 	std::cout << "Destructor called" << std::endl;
