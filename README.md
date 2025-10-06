@@ -17,10 +17,19 @@
 
 <details>
 <summary><b>Ex01 - Towards a more useful fixed-point number class</b></summary>
-<p align="center">
-    <img src="https://github.com/user-attachments/assets/316cc0a3-66cd-4e3c-b1dc-b39cc7a3aea3" height="200"/>
-</p>
+<p> The goal of this exercise is to understand how to use fixed point numbers and creating one object of one calsse that will store one. A fixed-point number is a way of representing real numbers where the decimal point is fixed in a specific position. Unlike floating-point numbers, which can move the decimal point dynamically, fixed-point numbers have a set number of digits before and after the decimal. Fixed-point numbers are especially useful in systems where performance, predictability and resource constraints matter.
 
+Converts the internal fixed-point integer to a float.
+Divides by the scaling factor (based on the number of fractional bits).
+Returns the real-world floating-point value.
+<img width="1328" height="406" alt="Image" src="https://github.com/user-attachments/assets/f7982a2e-e1bd-4690-ab04-255b38579c09" />
+
+
+Converts a plain integer into fixed-point format.
+Stores it by shifting left to make room for fractional bits.
+Prepares the number for fixed-point arithmetic.
+<img width="1024" height="406" alt="Image" src="https://github.com/user-attachments/assets/b634e6ad-4774-437d-b20e-d8626ddfc75c" />
+</p>
 </details>
 
 <details>
