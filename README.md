@@ -41,6 +41,8 @@ Prepares the number for fixed-point arithmetic.
 <details>
 <summary><b>Ex03 - BSP</b></summary>
 <p>The goal of this exercise is to determine whether a given point lies inside a triangle. To do this, I used the following formula:
+<img width="2034" height="748" alt="Image" src="https://github.com/user-attachments/assets/ab2c2416-7007-4a70-a134-f83c0774e287" />
+This checks whether all three cross products have the same sign. If all are positive or all are negative → p is inside the triangle. If signs differ → p is outside.   
 <img width="585" height="820" alt="Image" src="https://github.com/user-attachments/assets/fd604772-f43e-461a-9b38-9eaebcb9ae7d" />
 </p>
 </details>
