@@ -34,17 +34,13 @@ Prepares the number for fixed-point arithmetic.
 
 <details>
 <summary><b>Ex02 - Now we’re talking</b></summary>
-<p align="center">
-    <img src="https://github.com/user-attachments/assets/71057245-64c7-407b-96ca-68ebd314221a" height="200"/>
+<p>The goal of this exercise is to understand and implement operator overloading. This is very interesting because it allows us to implement any operator for objects of any class.
 </p>
-
 </details>
 
-
 <details>
-<summary><b>Ex02 - BSP/b></summary>
-<p align="center">
-    <img src="https://github.com/user-attachments/assets/71057245-64c7-407b-96ca-68ebd314221a" height="200"/>
+<summary><b>Ex03 - BSP</b></summary>
+<p>The goal of this exercise is to determine whether a given point lies inside a triangle. To do this, I used the following formula:
+<img width="585" height="820" alt="Image" src="https://github.com/user-attachments/assets/fd604772-f43e-461a-9b38-9eaebcb9ae7d" />
 </p>
-
 </details>
